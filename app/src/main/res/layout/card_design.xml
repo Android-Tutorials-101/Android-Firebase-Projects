@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10sp"
+    app:cardCornerRadius="10sp"
+    android:layout_margin="8sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:id="@+id/id"
+            android:padding="10sp"
+            android:textSize="20sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/name"
+            android:padding="10sp"
+
+            android:textSize="30sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:id="@+id/course"
+            android:padding="10sp"
+
+            android:textSize="20sp"
+            ></TextView>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
