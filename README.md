@@ -15,7 +15,7 @@ db = FirebaseDatabase.getInstance();
 
 ```
 
-### Lines to be 
+### Lines to be added 
 
 ```
  // Function to tell the app to start getting
